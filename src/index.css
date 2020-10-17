@@ -1,0 +1,26 @@
+body {
+    background-color: lightgray;
+}
+
+body > header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: darkslategray;
+}
+
+body > header > h1 {
+    color: white;
+}
+
+body > main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > main > section {
+    width: 45%;
+}
